@@ -1,0 +1,164 @@
+.arrivals{
+	padding-top: 6rem;
+}
+.secondary__title{
+	font-size: 2.25rem;
+	font-weight: 600;
+	padding-bottom: 2rem;
+}
+
+
+.cards {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	margin-right: 30px;
+	gap: 60px;
+	// overflow-y: hidden;
+	transition: transform 0.3s ease-in-out;
+	
+}
+.cards li {
+width: 145px;
+cursor: pointer;
+flex-shrink: 0;
+	
+}
+.slider__newProducts-box{
+	padding-top: 2rem;
+}
+
+
+
+.label__new {
+	width: 90px;
+	border: 1px solid #3FC201;
+	padding: 2px 12px;
+	color: $white;
+	background-color: #3FC201;
+	border-radius: 2px;
+	margin-bottom: 20px;
+}
+
+.cards__description-code, .cards__description-vendor {
+	font-size: 14px;
+	font-weight: 400;
+}
+.cards__description-products__info{
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 20px;
+	margin-top: 10px;
+}
+.cards__img{
+	max-width: 120px;
+	padding: 15px 0;
+}
+.cards__description-price {
+}
+.cards__description-mini__busket {
+	display: inline;
+}
+.card__2 {
+}
+.card__3 {
+}
+.card__4 {
+}
+.cards__description-bottom{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 15px;
+}
+.cards__description-bottom-hover{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	visibility: hidden;
+
+	&:hover{
+		visibility: visible;
+	}
+
+}
+.slider__newProducts-box{
+	position: relative;
+	&:hover{
+		visibility: visible;
+	}
+}
+.accessories__item{
+	
+}
+
+.nav-pills .nav-link{
+	background: #FAFAFA;
+	color: #000;
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+	background-color: $red;
+	
+}
+// owl-slider
+.owl-carousel{
+	position: relative;
+}
+
+.owl-next{
+	left: 1200px;
+}
+.owl-prev{
+	right: 1200px;
+}
+.owl-next, .owl-prev{
+	position: absolute;
+	top: 30%;
+}
+.owl-next span, .owl-prev span{
+	font-size: 40px;
+}
+.cards__description-mini__busket{
+
+}
+.owl-carousel .owl-item img{
+	width: auto;
+}
+.owl-prev{
+	&::before{
+		content: "";
+		position: absolute;
+		bottom: 0;
+		left: -10px;
+		width: 33px;
+		height: 33px;
+		background-image: url("./../img/red__btn-prev.svg");
+		background-repeat: no-repeat;
+	}
+}
+.owl-next{
+	&::before{
+		content: "";
+		position: absolute;
+		bottom: 0;
+		left: -50px;
+		width: 33px;
+		height: 33px;
+		background-image: url("./../img/red__btn-next.svg");
+		background-repeat: no-repeat;
+	}
+}
+.owl-next span{
+	display: none;
+}
+.owl-prev span{
+display: none;
+}
+.btn__buy-mobile{
+	display: none;
+}
+.item a{
+	color: #000;
+}

@@ -1,0 +1,252 @@
+.footer {
+	margin-top: 4.5rem;
+	background-color: #262626;
+	padding-top: 3rem;
+	color: $white;
+}
+.footer a {
+	color: $white;
+}
+
+.footer__top {
+
+}
+.footer__top-box {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.footer__top-box-item1 {
+	font-size: 20px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+.footer__top-box-item1 ul {
+	padding-left: 0;
+}
+.footer__top-box-item1 a {
+	transition: all 0.2s ease;
+
+	&:hover{
+		color: $red;
+	}
+}
+.footer__top-box-item1 li {
+	padding-bottom: 1.5rem;
+	&:last-child{
+		padding-bottom: 0;
+	}
+
+}
+.footer__top-box-item2 li, .footer__top-box-item3 li {
+	padding-bottom: 1rem;
+
+	&:last-child{
+		padding-bottom: 0;
+	}
+}
+.footer__main_logo {
+	padding-bottom: 6.25rem;
+}
+.footer__top-box-item2 {
+}
+.footer__top-box-item2 ul, .footer__top-box-item4 ul {
+	padding-top: 1.5rem;
+}
+.footer__top-box-item3 ul{
+	padding-top: 3rem;
+}
+.footer__top-box-item3 {
+}
+.footer__top-box-item4 {
+	max-width: 350px;
+	padding-left: 44px;
+}
+.contacts {
+}
+.footer__icons {
+	padding-bottom: 1.6rem;
+
+}
+.adress {
+}
+.phone {
+}
+.email {
+}
+.schedule {
+}
+.messengers {
+}
+.footer__down {
+}
+.footer span{
+	position: relative;
+	font-weight: 500;
+	font-size: 19px;
+	margin-bottom: 0;
+
+	&::before{
+		content: "";
+		position: absolute;
+		top:0;
+		left: -30px;
+		width: 25px;
+		height: 25px;
+		background-image: url("./../img/favicon.svg");
+		background-repeat: no-repeat;
+	}
+
+
+}
+.footer__icon-right{
+	position: relative;
+	transition: all 0.2s ease;
+	
+	&::after{
+		content: "";
+		position: absolute;
+		top: 2px;
+		left: 200px;
+		width: 25px;
+		height: 25px;
+		color: $white;
+		background-image: url("./../img/footer__icon-right.svg");
+		background-repeat: no-repeat;
+	}
+
+	&:hover{
+		color: red;
+	}
+}
+.footer__icons-description{
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: 400;
+	color: #BDBDBD;
+}
+
+.maps, .footer__phone, .email, .schedule{
+	position: relative;
+	transition: all 0.2s ease;
+}
+
+.maps{
+	&::before{
+		content: "";
+		position: absolute;
+		top: -20px;
+		left: -50px;
+		width: 44px;
+		height: 44px;
+		color: $white;
+		background-image: url("./../img/maps__icon.svg");
+		background-repeat: no-repeat;
+	}
+	&:hover{
+		color: red;
+	}
+}
+.footer__phone{
+	&::before{
+		content: "";
+		position: absolute;
+		top: -20px;
+		left: -50px;
+		width: 44px;
+		height: 44px;
+		color: $white;
+		background-image: url("./../img/phone__icon.svg");
+		background-repeat: no-repeat;
+	}
+	&:hover{
+		color: red;
+	}
+}
+.email{
+	&::before{
+		content: "";
+		position: absolute;
+		top: -20px;
+		left: -50px;
+		width: 44px;
+		height: 44px;
+		color: $white;
+		background-image: url("./../img/email__icon.svg");
+		background-repeat: no-repeat;
+	}
+	&:hover{
+		color: red;
+	}
+}
+.schedule{
+	&::before{
+		content: "";
+		position: absolute;
+		top: 0px;
+		left: -50px;
+		width: 44px;
+		height: 44px;
+		color: $white;
+		background-image: url("./../img/workTime__icon.svg");
+		background-repeat: no-repeat;
+	}
+}
+.messengers h3{
+	font-weight: 500;
+}
+.messengers__box{
+	display: flex;
+	flex-direction: row;
+	gap: 18px;
+}
+.messengers__box img{
+	padding-right: 10px;
+}
+
+// .footer__down 
+.footer__down{
+	padding: 15px 0;
+	background: #262626;
+}
+.footer__down-box	 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.politic__privacy{
+	position: relative;
+}
+.politic__privacy p {
+	color: #828282;
+	font-weight: 400;
+	padding-left: 20px;
+	&::before{
+		content: "";
+		position: absolute;
+		top:0;
+		left: -10px;
+		width: 25px;
+		height: 25px;
+		background-image: url("./../img/favicon.svg");
+		background-repeat: no-repeat;
+	}
+}
+.footer__down-payments {
+}
+.dev {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.dev span {
+	margin-right: 20px;
+}
+.mastercard-logo{
+	width: 130px;
+	height: 30px;
+}
+
+

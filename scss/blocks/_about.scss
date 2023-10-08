@@ -1,0 +1,132 @@
+.about {
+}
+
+.about__wrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	gap: 25px;
+}
+.about__wrapper-description {
+	width: 633px;
+	display: flex;
+	flex-direction: column;
+	font-weight: 400;
+	line-height: 150%;
+	max-height: 627px;
+	overflow-y: scroll;
+	padding-right: 60px;
+}
+.about__wrapper-description h3 {
+	font-size: 24px;
+	font-weight: 500;
+	margin-top: 1.5rem;
+}
+.about__wrapper-form {
+	position: relative;
+	width: 512px;
+	padding: 0 25px;
+	justify-content: space-between;
+	background: #fafafa;
+	box-shadow: 0px 4px 32px 0px rgba(0, 0, 0, 0.12);
+	border-radius: 5px;
+	padding-bottom: 1rem;
+
+	&::before{
+		content: "";
+		position: absolute;
+		bottom: 0;
+		left: 5px;
+		width: 72px;
+		height: 63px;
+		background-image: url("./../img/form__img.svg");
+		background-repeat: no-repeat;
+	 }
+}
+.about__wrapper-form h3 {
+	text-align: center;
+	color: $red;
+	font-weight: 600;
+	font-size: 28px;
+	padding-top: 2rem;
+}
+.about__wrapper-form p {
+	text-align: center;
+	font-weight: 400;
+
+}
+.callback-form {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding-top: 1.5rem;
+}
+.callback-form label {
+	font-weight: 500;
+	padding-bottom: 0.5rem;
+	cursor: auto;
+}
+.form__input {
+	width: 25rem;
+	min-height: 2.75rem;
+	border-radius: 2px;
+	border: 1px solid #e0dbdb;
+	background: #FFF;
+	padding: 15px 20px;
+}
+.phone {
+}
+.about__wrapper-logo {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	&::before{
+		content: "";
+		position: absolute;
+		bottom: 0px;
+		left: 5px;
+		width: 120px;
+		height: 140px;
+		background-image: url("./../img/form__element.svg");
+		background-repeat: no-repeat;
+
+	}
+	&::after{
+		content: "";
+		position: absolute;
+		top: 0px;
+		left: 5px;
+		width: 120px;
+		height: 140px;
+		background-image: url("./../img/form__element.svg");
+		background-repeat: no-repeat;
+
+	}
+
+	
+
+
+
+}
+.about__wrapper-logo-img {
+}
+#message{
+	padding-bottom: 0
+}
+.about__wrapper-form-btn{
+	display: flex;
+	justify-content: center;
+}
+.form__btn{
+	text-align: center;
+	width: 13.75rem;
+	padding: 12px 24px;
+	background: $red;
+	color: $white;
+	transition: all 0.3s ease;
+	&:hover{
+		background: rgb(200, 6, 6);
+		color: $white;
+	}
+}
